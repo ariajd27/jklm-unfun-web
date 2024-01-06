@@ -1,0 +1,16 @@
+{
+   "action": {
+      "default_popup": "index.html",
+      "default_title": "Window"
+   },
+   "author": "ariajd27",
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content-script.js" ],
+      "matches": [ "https://*.jklm.fun/*", "https://jklm.fun/*" ]
+   } ],
+   "description": "cheat at bombparty! lose friends!",
+   "manifest_version": 3,
+   "name": "jklm-unfun-web",
+   "version": "0.1"
+}
